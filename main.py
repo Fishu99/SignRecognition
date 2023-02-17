@@ -16,7 +16,7 @@ storedTrainPath = "TrainData"   # Catalog with data for training
 storedTestPath = "TestData"     # Catalog with data for testing
 storedValidationPath = "ValidationData"     # Catalog with data for validating
 labelsCsv = "labels.csv"  # File with sign labels
-modelOutput = "Model_03"
+modelOutput = "Model_03" # Name of the generated model
 imgDims = (32, 32, 3)   # Training Image dimensions
 epochsCount = 20 # Amount of epochs
 stepsPerEpoch = 250     # Number of steps in each epoch of training - should be trainX/batchSize
@@ -82,7 +82,7 @@ assert(trainX.shape[1:] == imgDims), " The dimensions of the Training images are
 assert(validationX.shape[1:] == imgDims), " The dimensions of the Validation images are wrong "
 assert(testX.shape[1:] == imgDims), " The dimensions of the Test images are wrong"
 
-# Reading traffic sign classes names form lables.csv file
+# Reading traffic sign classes names form labels.csv file
 dataFromCSV = pd.read_csv(labelsCsv)  # Read data from labels csv file
 print("Data shape ", dataFromCSV.shape, type(dataFromCSV))  # Save Name column values to array
 
