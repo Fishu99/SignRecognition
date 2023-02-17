@@ -1,4 +1,4 @@
-<p align="center"><img width=80% src="https://github.com/Fishu99/signRecognition/Media/SignRecognition.png"></p>
+<p align="center"><img width=80% src="https://github.com/Fishu99/SignRecognition/blob/master/Media/SignRecognition.png"></p>
 
 # Road sign recognition project 🪧
 
@@ -37,19 +37,19 @@ batchSize = 50  # Number of elements to process together
 
 During training histogram of read data per road sign class is shown to the user for a better view:
 
-<p align="center"><img width=80% src="https://github.com/Fishu99/signRecognition/Media/sampleDistribution.png"></p>
+<p align="center"><img width=80% src="https://github.com/Fishu99/SignRecognition/blob/master/Media/sampleDistribution.png"></p>
 
 After completing training a model it is being tested by using the previously created _Test_ directory of images. Results of the test are presented in the console and by generated charts:
 
-<p align="center"><img width=80% src="https://github.com/Fishu99/signRecognition/Media/modelResult.png"></p>
+<p align="center"><img width=80% src="https://github.com/Fishu99/SignRecognition/blob/master/Media/Media/modelResult.png"></p>
 
 Third part produces a confusion matrix from the selected model to make sure of its correctness. Confusion Matrix makes it possible to obtain information about which signs the model trained is confused with. This is very useful information, meaning that more pictures with this road sign should be added to the dataset for better results and better accuracy of the model. 
 
-<p align="center"><img width=80% src="https://github.com/Fishu99/signRecognition/Media/cmatrix.png"></p>
+<p align="center"><img width=80% src="https://github.com/Fishu99/SignRecognition/blob/master/Media/cmatrix.png"></p>
 
 Last part stands for the Graphical User Interface application. It uses previously trained model to recognize traffic signs on selected image and produce a histogram of classes, where we can see the probability of choosing this particular traffic sign.
 
-<p align="center"><img width=80% src="https://github.com/Fishu99/signRecognition/Media/usage.png"></p>
+<p align="center"><img width=80% src="https://github.com/Fishu99/SignRecognition/blob/master/Media/usage.png"></p>
 
 ## 🔐 Requirements
 To run your app, the user will need to have the following installed:
