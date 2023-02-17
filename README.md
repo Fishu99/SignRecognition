@@ -41,7 +41,7 @@ During training histogram of read data per road sign class is shown to the user 
 
 After completing training a model it is being tested by using the previously created _Test_ directory of images. Results of the test are presented in the console and by generated charts:
 
-<p align="center"><img width=80% src="https://github.com/Fishu99/SignRecognition/blob/master/Media/Media/modelResult.png"></p>
+<p align="center"><img width=80% src="https://github.com/Fishu99/SignRecognition/blob/master/Media/modelResult.png"></p>
 
 Third part produces a confusion matrix from the selected model to make sure of its correctness. Confusion Matrix makes it possible to obtain information about which signs the model trained is confused with. This is very useful information, meaning that more pictures with this road sign should be added to the dataset for better results and better accuracy of the model. 
 
